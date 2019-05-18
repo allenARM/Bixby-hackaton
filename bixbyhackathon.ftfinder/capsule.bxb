@@ -1,0 +1,13 @@
+capsule {
+  id (bixbyhackathon.ftfinder)
+  version (0.1.0)
+  format (3)
+  targets {
+    target (bixby-mobile-en-US)
+  }
+  capsule-imports {
+    import (viv.geo) {
+      as (geo) version(9.11.2)
+    }
+  }
+}

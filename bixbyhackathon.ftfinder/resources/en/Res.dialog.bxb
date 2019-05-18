@@ -1,0 +1,11 @@
+dialog (Result) {
+  match {
+    Friend(this)
+
+  }
+  template ("I found #{value(this.name)}")
+  {
+    speech("I found #{value(this.name)} #{value(this.position)}")
+  }   
+
+}

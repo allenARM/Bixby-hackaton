@@ -1,0 +1,8 @@
+endpoints {
+  action-endpoints {
+     action-endpoint (SearchFriend) {
+      accepted-inputs (name)
+      local-endpoint (findFriend.js)
+    }
+  }
+}

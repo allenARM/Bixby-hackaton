@@ -1,0 +1,11 @@
+action (SearchFriend) {
+  description (Get friend info)
+  type (Search)
+  collect {
+    input (name) {
+      type (viv.core.Name)
+      min (Optional) max (One)
+    }
+  }
+  output (Friend)
+}
